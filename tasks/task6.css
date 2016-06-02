@@ -1,0 +1,403 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+padding: 0;
+margin: 0;
+}
+
+fieldset,img {
+border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+font-weight: normal;
+font-style: normal;
+}
+ol,ul {
+list-style: none;
+}
+
+/*topbar*/
+    .topbar{
+        width: 892px;
+        height: 62px;
+        border-bottom: 2px solid #938e8c;
+        margin:0 auto;
+    }
+     .topbar .topbar-left{
+    padding-top: 45.5px;
+    padding-left: 7.33px;
+     width: 109px;
+     height: 16.5px;
+     float: left;
+     background-color: #d45d5c;
+     color:#fff;
+     font-size: 12px;
+     }
+      .topbar .topbar-right{
+      padding-top:45.5px;
+     float: right;
+     color: #d45d5c;
+    font-size: 12px;
+      
+     } 
+     /*content*/
+     .content{
+        width: 892px;
+        height: 455px;
+        margin:0 auto;
+     }
+     
+      .new1{
+        width: 891px;
+        height: 301px;
+        margin:0 auto;
+        margin-top:35px;
+      }
+      .new1 #new1-left{
+        width: 641px;
+        height:301px;
+        float:left;
+        background-image: url(images/zuotu1.gif);
+      }
+     
+      #new1-left .left{
+        width: 191px;
+        height: 301px;
+        background-color: #3d5d4c;
+        opacity:0.5;
+        float: left;
+      }
+       #new1-left .right{
+        width: 191px;
+        height: 301px;
+         background-color: #e5b8b7;
+         opacity:0.5;
+         float:right;
+      }
+      .new1 #new1-right{
+        float: right;
+        width: 201px;
+        height: 301px;
+        border-top:2px solid #cc8091; 
+
+      }
+   #new1-right .word1{
+    float: right;
+    width: 203px;
+    height: 246px;
+    font-family: "微软雅黑";
+    border-top: 2px solid #cc8091;
+        }
+       #new1-right .word1{
+            float: left;
+            font-size: 20px;
+            line-height: 40px;
+            color: #000;  
+        }
+         #new1-right .word1 .r1{
+            float: left;
+            height: 34px;
+            border-bottom: 2px solid #565455;
+        }
+      #new1-right .word1  b{
+            font-weight:normal;
+            font-size: 26px;
+        }
+        #new1-right .word1 .r2{
+            padding-top: 2px;
+            float: left;
+            font-size: 12px;
+            color: #676767;
+            font-family: "楷体";
+            line-height: 10px;
+            font-style: italic;
+        }
+        #new1-right .word1 .r3{
+            font-size: 114px;
+            color: #75b86b;
+            font-style: italic;
+            float: left;
+            margin-top: 70px;
+            font-weight: bold;
+            margin-left: -20px;
+        }
+        #new1-right .word2{ 
+            height: 58px;
+            float: left;
+        }
+         #new1-right .word2 .word2-left, #new1-right .word2 .word2-right2{
+            float: left;
+            color: #d27f91; 
+        }
+        #new1-right .word2 .word2-left{
+            font-size: 55px;
+            margin-right: 5px;  
+        }
+        #new1-right .word2 .word2-right2{
+            font-size: 21px;
+        }
+      #new1-right .word2 .word2-right1{
+            width: 100px;
+            height: 13px;
+            float: left;
+        }
+       #new1-right .word2 .word2-right3{
+            color: #d3d3d3;
+        }
+        .new2{
+           float:left;
+            margin:25px 30px 0 0;
+        }
+
+
+        .new2 #what, .new2 #when, .new2 #how{
+           
+            font-size: 16px;
+            font-family: "微软雅黑";
+            text-decoration: underline;
+            font-weight: bold;  
+            
+        }
+      
+        .new2 p{
+            font-size: 12px;
+            line-height:16px; 
+            width: 225px;
+        }  
+        .new2 #what{
+            color:  #418c59;
+        }
+        .new2 #when{
+             color: #d2994f;
+        }
+        .new2 #how{
+            color:  #cc7680;
+        }
+        .what p{
+            font-family: "宋体";
+            color: #767777;
+        }
+
+        .when p,.how p{
+            color: #655d5b;
+        }
+        .what p,.when p,.how p{
+           margin-top: 10px;
+        }
+        .how .how-list{
+            margin-left: 5px;
+        }
+        .how .how-list span{
+            color: #ca4d48;
+            font-style: italic;
+        }
+        
+       
+       .what,.when,.how{
+            float:left;
+            margin-right: 28px;
+            
+        }
+        /*techonologe*/
+        .techonologe{
+            width:892px;
+            margin:0 auto;
+            margin-top: 75px;
+        }
+        .techonologe-left{
+            float: left;
+            width: 415px;
+            height: 387px;
+        }
+
+            .techonologe-left #tec-left-top{
+                width: 415px;
+                height: 150px;
+                border-bottom: 2px solid #11456b;
+                font-size:33px;
+                color:#11456b;
+                font-family: "黑体";
+                font-weight: bold;
+                line-height: 34px;
+                text-transform: uppercase;
+            }
+            .techonologe-left #tec-left-top p{
+                float: left;
+                margin-bottom: 0;
+                margin-top: 10px;
+            } 
+            .techonologe-left #tec-left-top span{
+                font-size: 60px;
+                font-style: italic;
+                margin-right:15px;
+                color:#f5e327;
+            }
+            #tec-left-footer{
+                padding-top:27px;
+                color:#767777;
+                font-family: "宋体";
+                font-size: 12px;
+                line-height: 20px;
+            }
+           
+            #tec-left-footer .p1 span{
+                color:#f5e327;
+                float: left;
+                font-family: "微软雅黑";
+                font-size:70px;
+                height: 70px;
+                line-height: 1;
+                margin-right:5px;
+            }
+            #tec-left-footer .p1 img{
+              float: right;
+              margin:8px 0 0 10px;
+            }
+            #tec-left-footer .p2{
+               text-indent:2em;
+            }
+            .techonologe-right{
+                float: right;
+                width: 458px;
+            }
+            #tec-right-top{
+                background-image:url(images/tu3.gif);
+                   width: 458px;
+                    height:257px;
+                    line-height: 20px;
+                     }
+        #tec-right-top .null{
+            width: 458px;
+            height: 196px;
+        }
+         #tec-right-top .img{
+            float: left;
+            height: 61px;
+            line-height: 61px;
+            margin-left: 38px;
+            width: 458px;
+           }
+            #tec-right-top .img b{
+                border-left:3px solid #72b16a;
+                color:#fff;
+                font-family: "微软雅黑";
+                font-size:26px;
+                font-weight: normal;
+                padding-left:10px;
+            }
+            #tec-right-top .img span{
+                font-style: italic;
+                color:#7ab274;
+                font-size: 12px;
+            }
+            #tec-right-footer{
+                background-color: #eeeed6;
+                width: 458px;
+                height: 305px;
+                padding-top: 25px;
+            }
+            #tec-right-footer ul{
+                list-style:outside none none; 
+            }
+             #tec-right-footer li{
+                list-style-image: url("images/tu4.gif");
+                line-height: 2.7;
+                margin-left:30px;
+                text-align: center;
+                width: 380px; 
+                font-family: "宋体";
+                color:#747470;
+             }
+             #tec-right-footer li span{
+                font-size: 12px;
+                font-style: italic;
+             }
+             #tec-right-footer-lt{
+                width: 260px;
+                height: 135px;
+                background-color: #d55d5c;
+                float: left;
+                margin-top: 20px;
+                padding:10px 0;
+             }
+              #tec-right-footer-rt{
+                width: 180px;
+                height: 131px;
+               
+                float: right;
+               font-size:14px;
+               font-style: italic;;
+                font-family: "黑体";
+             }
+             .lt-right{
+                color:#fff;
+                font-family: "黑体";
+                margin-left: 8px;
+                padding:30px 0;
+             }
+             .lt-left{
+                border-right: 2px solid #fff;
+                color:#fff;
+                float: left;
+                font-family: "微软雅黑";
+                font-size:120px;
+                line-height: 86px;
+                margin:30px 7px;
+
+             }
+              .lt-right .a{
+                font-size: 21px;
+                line-height: 24px;
+                font-style: italic;
+                text-transform: uppercase;
+              }
+               .lt-right .b{
+                font-size: 12px;
+                font-weight: bold;
+                
+              }
+              #tec-right-footer-rt{
+                float: right;
+                font-family: "黑体";
+                font-size: 14px;
+                font-style: italic;
+                line-height: 16px;
+                width: 180px;
+                position: relative;
+                color:#5a5b5b;
+              }
+              .tec-rt-contain{
+                float: left;
+                margin-top: 35px;
+                text-indent: 3em;
+                
+              }
+               .tec-rt-contain .ca{
+               font-size: 72px;
+                color:#d45d5c;
+                font-style: normal;
+                position:absolute;
+                right: 160px;
+               margin-top: 20px;
+               }
+                .tec-rt-contain .cb{
+                 font-size: 72px;
+                color:#d45d5c;
+                font-style: normal;
+                position:absolute;
+                right: 0.5px;
+                margin-top: 30px;
+               }
+    /*footer*/
+     .footer{
+        width: 892px;
+        height: 60px;
+        border-top:1px solid #938e8c;
+        margin-bottom: none; 
+        position: absolute;
+        top:1260px;
+        left:230px;
+     }
+     .footer span{
+        float: right;
+        color:#d45d5c;
+     font-size: 12px;
+     }
